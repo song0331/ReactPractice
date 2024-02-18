@@ -1,0 +1,31 @@
+.best {
+  /* background-color: rgb(216, 54, 54); */
+  height: 15vh;
+  border: 5px solid rgb(216, 54, 54);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.women {
+  /* background-color: rgb(24, 121, 24); */
+  height: 15vh;
+  border: 5px solid rgb(24, 121, 24);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.men {
+  /* background-color: rgb(93, 156, 180); */
+  height: 15vh;
+  border: 5px solid rgb(93, 156, 180);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.kid {
+  /* background-color: rgb(93, 156, 180); */
+  height: 15vh;
+  border: 5px solid rgb(170, 93, 180);
+  border-radius: 10px;
+  margin: 10px;
+}

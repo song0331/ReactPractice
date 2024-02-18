@@ -1,0 +1,46 @@
+.sr_only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0px;
+  clip: rect(0, 0, 0, 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  white-space: nowrap;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background-color: #6aafe6;
+  color: #d4dfe6;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #21415a;
+  transform: scale(1.2);
+}
+
+img {
+  height: 800px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+figure {
+  text-align: center;
+}

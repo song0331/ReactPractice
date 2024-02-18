@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 100px;
+  justify-content: center;
+}

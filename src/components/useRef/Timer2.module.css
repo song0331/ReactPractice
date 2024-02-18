@@ -1,0 +1,13 @@
+.timer {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+
+.btn {
+  border: none;
+  margin: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background-color: rgba(37, 182, 182, 0.397);
+}

@@ -1,0 +1,17 @@
+.container {
+  container: mainBox / inline-size;
+  /* container: div-container / inline-size; */
+  border: 2px solid #303030;
+  width: 700px;
+  height: 700px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 700px;
+  font-weight: bolder;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.btn {
+  position: absolute;
+}

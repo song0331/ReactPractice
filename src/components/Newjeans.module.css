@@ -1,0 +1,79 @@
+section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+figure {
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #7DB5E1;
+  margin: 0;
+
+  h4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+img {
+  border-radius: 3px;
+  height: 250px;
+}
+
+.btn_wrapper {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Noto Sans KR;
+  background-color: #F34350;
+}
+
+.btn:hover {
+  background-color: #912b32;
+}
+
+.addBtn {
+  position: fixed;
+  top: 30px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Noto Sans KR;
+  background-color: #2bb454;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Noto Sans KR;
+  background-color: #b527e0;
+}
+
+.deleteBtn:hover {
+  background-color: #59146e;
+}
+
+.addBtn:hover {
+  background-color: #145e2a;
+}

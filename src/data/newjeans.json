@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "민지",
+    "birth": "05.07",
+    "from": "대한민국",
+    "MBTI": "ESTJ",
+    "imgURL": "/images/minji.jpeg",
+    "like": 0
+  },
+  {
+    "id": 1,
+    "name": "하니",
+    "birth": "10.06",
+    "from": "호주, 베트남",
+    "MBTI": "INFP",
+    "imgURL": "/images/hanni.jpeg",
+    "like": 0
+  },
+  {
+    "id": 2,
+    "name": "다니엘",
+    "birth": "04.11",
+    "from": "대한민국, 호주",
+    "MBTI": "ENFP",
+    "imgURL": "/images/danielle.jpeg",
+    "like": 0
+  },
+  {
+    "id": 3,
+    "name": "해린",
+    "birth": "05.15",
+    "from": "대한민국",
+    "MBTI": "ISTP",
+    "imgURL": "/images/haerin.jpeg",
+    "like": 0
+  },
+  {
+    "id": 4,
+    "name": "혜인",
+    "birth": "04.21",
+    "from": "대한민국",
+    "MBTI": "INFP",
+    "imgURL": "/images/hyein.jpeg",
+    "like": 0
+  }
+]
