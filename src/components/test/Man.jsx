@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link, Outlet, useLocation, useOutletContext } from 'react-router-dom'
+import { Link, Outlet, useOutletContext } from 'react-router-dom'
 
 const Man = () => {
-  const location = useLocation();
-  // console.log(location.state);
   const PBdata = useOutletContext()
   // console.log(PBdata)
   return (

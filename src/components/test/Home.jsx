@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import PocketBase from 'pocketbase'
 import { Link, Outlet, useLoaderData, useNavigate } from 'react-router-dom'
+import { FaApple, FaAndroid } from "react-icons/fa6";
 
 const Home = () => {
 
   const [data, setData] = useState(10);
   const navigate = useNavigate()
 
-  useEffect(() => {
-  }, [])
+  // useEffect(() => {
+  // }, [])
 
   const PBdata = useLoaderData();
   // console.log(PBdata)
@@ -16,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-      <div>Home</div>
+      <div>Home<FaApple /> <FaAndroid /></div>
       <button onClick={() => {
         navigate('/man/outer', { state: data });
       }}>이동</button>
@@ -29,6 +30,9 @@ const Home = () => {
         </li>
         <li>
           <Link to='/woman'>woman</Link>
+        </li>
+        <li>
+          <Link to='/test'>test</Link>
         </li>
       </ul>
       <Outlet context={PBdata} />
